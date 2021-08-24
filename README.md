@@ -1,4 +1,5 @@
-# PaddlePaddle code for ReadsRE: Retrieval-Augmented Distantly Supervised Relation Extraction, SIGIR 21
+# ReadsRE: Retrieval-Augmented Distantly Supervised Relation Extraction, SIGIR 21
+This repository contains PaddlePaddle code that supports experiments in our SIGIR 2021 paper: ReadsRE: Retrieval-Augmented Distantly Supervised Relation Extraction. Note: Pytorch version is available upon request. 
 
 ## Environment: refer to requirements.txt
 
@@ -27,10 +28,10 @@ Wikipedia Dataset Downloads:
 `cd paddle_dist`
 `python3 -m paddle.distributed.launch --gpus=4,6 main_dist.py`
 
-## Note: Pytorch version is available upon request. 
 
-## If you find the code useful, please cite it as below:
-
+## Reference
+If you find our code or work useful, please cite it as below:
+```
 @inproceedings{ZhangSIGIR21,
   author    = {Yue Zhang and Hongliang Fei and Ping Li},  
   title     = {ReadsRE: Retrieval-Augmented Distantly Supervised Relation Extraction},
@@ -45,3 +46,4 @@ Wikipedia Dataset Downloads:
   timestamp = {Thu, 15 Jul 2021 15:30:48 +0200},
   biburl    = {https://dblp.org/rec/conf/sigir/ZhangF021.bib},
 }
+```
