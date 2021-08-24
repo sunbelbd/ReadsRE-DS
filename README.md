@@ -27,7 +27,7 @@ Wikipedia Dataset Downloads:
 `cd paddle_dist`
 `python3 -m paddle.distributed.launch --gpus=4,6 main_dist.py`
 
-
+## Note: Pytorch version is available upon request. 
 
 ## If you find the code useful, please cite it as below:
 
