@@ -32,7 +32,7 @@ Wikipedia Dataset Downloads:
 ## If you find the code useful, please cite it as below:
 
 @inproceedings{ZhangSIGIR21,
-  author    = {Yue Zhang and Hongliang Fei and Ping Li},
+  author    = {Yue Zhang and Hongliang Fei and Ping Li},  
   title     = {ReadsRE: Retrieval-Augmented Distantly Supervised Relation Extraction},
   booktitle = {{SIGIR} '21: The 44th International {ACM} {SIGIR} Conference on Research
                and Development in Information Retrieval, Virtual Event, Canada, July
