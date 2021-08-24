@@ -19,8 +19,8 @@ Wikipedia Dataset Downloads:
 
 ## Single-GPU Version
 
-`cd paddle_exp`
-`python main.py`
+```cd paddle_exp```
+```python main.py```
 
 
 ## Multi-gpu Version
