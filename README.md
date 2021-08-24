@@ -5,12 +5,14 @@ This repository contains PaddlePaddle code that supports experiments in our SIGI
 
 ## Dataset Preparation
 
-NYT10 Dataset Downloads;
+NYT10 Dataset Downloads:
 
-`mkdir nyt10`
-`wget -P nyt10 https://thunlp.oss-cn-qingdao.aliyuncs.com/opennre/benchmark/nyt10/nyt10_rel2id.json`
-`wget -P nyt10 https://thunlp.oss-cn-qingdao.aliyuncs.com/opennre/benchmark/nyt10/nyt10_train.txt`
-`wget -P nyt10 https://thunlp.oss-cn-qingdao.aliyuncs.com/opennre/benchmark/nyt10/nyt10_test.txt`
+```
+mkdir nyt10
+wget -P nyt10 https://thunlp.oss-cn-qingdao.aliyuncs.com/opennre/benchmark/nyt10/nyt10_rel2id.json
+wget -P nyt10 https://thunlp.oss-cn-qingdao.aliyuncs.com/opennre/benchmark/nyt10/nyt10_train.txt
+wget -P nyt10 https://thunlp.oss-cn-qingdao.aliyuncs.com/opennre/benchmark/nyt10/nyt10_test.txt
+```
 
 Wikipedia Dataset Downloads:
 
@@ -19,14 +21,18 @@ Wikipedia Dataset Downloads:
 
 ## Single-GPU Version
 
-```cd paddle_exp```
-```python main.py```
+```
+cd paddle_exp
+python main.py
+```
 
 
 ## Multi-gpu Version
 
-`cd paddle_dist`
-`python3 -m paddle.distributed.launch --gpus=4,6 main_dist.py`
+```
+cd paddle_dist
+python3 -m paddle.distributed.launch --gpus=4,6 main_dist.py
+```
 
 
 ## Reference
